@@ -31,7 +31,30 @@ the jack on the other card (Analog Codec)
 ## Settings
 The sound is controlled with 6 switch and 8 potenziometers, and they work all indipendently to others so your code can be basically anything differnt and still works with all the switch and potenziometers
 
-### Gallery
+### Let's thalk about buttons to press!
+if you use the the default code here are the things that you can do:
+
+if you press any button you arledy strarting to change the sound of the input but the real magic comes with the potenziometers and you take controll of the audio compleatlly
+
+there is a single potenziometers for thoose sounds that controls the power:
+- pitch changer
+- flangers
+- reverb
+- echo
+
+but there are two effects that have two potenziometers:
+
+- filter high-low
+  the first one control the low frequences (it can boost it or lower it)
+  the second control the high frequences (it can boost it or lower it)
+  the medium frequences are untouched
+
+- shutter
+  the first potenziometer control the time of thoose shut (how much time they stay)
+  and the second control the pause between those shuts
+
+
+## Gallery
 
 <img width="1316" height="845" alt="Screenshot 2026-10-24 114313" src="https://github.com/user-attachments/assets/d59d8214-df56-44e1-8844-2af36f794658" />
 
