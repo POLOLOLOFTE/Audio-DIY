@@ -4,7 +4,7 @@ An audio console where you can play with real time music!
 ## Descpription:
 This is an Audio modificator in real time so you can controll how the audio sounds and give it some DJ style effects and it's open source so you can download the premade code or just code it yourself however you want
 
-> **Note:** This is *NOT* a toy but neather a professional equipment.
+> **Note:** This is NOT a toy but neather a professional equipment.
 
 this work with a 'ESP32 DevKit V1 30pin' and another board called codec and it's the board that take the analog input and convert it in digital numbers: 0 and 1
 
@@ -19,10 +19,13 @@ i have tryed to make it easy as possible but the controllers for the potenziomet
 
 ## INPUT and OUTPUT
 the board has got 2 inputs:
+
 . the usb type c of the esp32 Devkit V1 30pin (for power)
+
 . the jack (the one soder on the board)
 
 and it has got one output:
+
 . the jack on the other card (Analog Codec)
 
 ## Settings
