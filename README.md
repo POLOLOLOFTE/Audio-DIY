@@ -86,21 +86,25 @@ but there are two effects that have two potenziometers:
 
 # Components that you Need
 
-- [ ] Esp32 DevKit V1 30pin [ Ebay's best offer](https://www.ebay.it/itm/266490362209?chn=ps&norover=1&mkevt=1&mkrid=724-173151-946886-5&mkcid=2&mkscid=101&itemid=266490362209&targetid=2302781041175&device=c&mktype=pla&googleloc=1008982&poi=&campaignid=21278170735&mkgroupid=160806971983&rlsatarget=pla-2302781041175&abcId=9414772&merchantid=6772416&gad_source=1&gad_campaignid=21278170735&gclid=Cj0KCQjwrvHWBhDKARIsABmp7h18D0lcg4mwYWQNuUb_xjlLxH_7VBD56x7ZvB-pxFoKnvR2Bwi4oMIaAjqlEALw_wcB)
-- [ ] Analog Codec [ Pcb Artist site(where i found it) ](https://pcbartists.com/product/es8388-module/)
-- [ ] 6 220-330homs resistors
-- [ ] 2 100nf unpolarized capacitors
-- [ ] 2 10uf polarized capacitors
-- [ ] some screw connectors (needng them for the buttons/potenziometers) 22 entrace
-- [ ] female header pins: 2 1x15; 2 1x10;
-- [ ] a female jack without switch
-- [ ] the pcb itself
-- [ ] some soder and the iron
-- [ ] quiet a bit of wire to connect everything
-- [ ] 8 potenziometers
-- [ ] 6 duble switch
-- [ ] 6 Led's, color: what you like
-- [ ] 2 ADS1115IDGS (the controller for the potenziometers)
+
+
+| Piece | Quantity | Notes | Link | USD |
+| :--- | :---: | :--- | :--- | :---: |
+| **ESP32 DevKit V1 (30pin)** | 1 | Main brain | [eBay Best Offer]([https://ebay.it](https://www.ebay.it/itm/266490362209)) | 14.23 |
+| **Analog Codec Module** | 1 | Analog codec | [PCB Artists Site]([https://pcbartists.com](https://pcbartists.com/product/es8388-module/)) | 16.79 |
+| **ADS1115IDGS** | 2 | potenziometers controller | [Amazon](https://www.amazon.it/-/en/ADS1115IDGSR-ADS1115IDGST-ADS1115IDGS-ADS1115-MSOP10/dp/B0CRQWTRNL/ref=sr_1_1?crid=3A7DLQN7I903N&dib=eyJ2IjoiMSJ9.-TmIbu7YQJw4iThlc6OG7MWgpj6EB_HSH48wNqmVZONnfdk-r3KiK01sLE0pXHxF-g91VWozS64dN5ynV5B_7gTRlVeP80SvG5o6kZ8EeXDfm4AXq1NMQx5EuUOJW4f5hZnC9gTOGtNqXZ1vLr6--8VqCrM2nnEDV2sqoPslPDWQHNZFGwUWPSa1a-AoExBXTplhvIQLp9tFjpdFu_JAK7lKG3X4uck0JFiCnp2s8OXNujH90LfcE37R5i9vtuiafWzRcmp6w7TZ4ZgTYhNOqxK_yItWzCYx4bKpvucx_pc.o1-ewgyV3qJF_BI8BGCa-Ho__qsU65buIypSJFIkgu4&dib_tag=se&keywords=ADS1115IDGS&qid=1792947325&sprefix=ads1115idgs%2Caps%2C146&sr=8-1) | 16.01 |
+| **Resistor220Ω - 330Ω** | 6 | resistor for the leds | [Amazon](https://www.amazon.it/-/en/gp/product/B0FP51H3ML/ref=ox_sc_act_title_5?smid=A2X2IS1I8BHRL9&psc=1) | 15.66 |
+| **Unpolarized capacitor** | 2 | protection for the controllers | [Amazon](https://www.amazon.it/-/en/gp/product/B07Y7PHY91/ref=ox_sc_act_title_9?smid=A3JM63OQAICKNV&psc=1) | 10.06 |
+| **Polarized capacitor** | 2 | 10µF | [Amazon](https://www.amazon.it/TUNOTYUE-Electrolytic-Capacitors-Aluminum-Capacitor/dp/B0G2RY2BSH/ref=sr_1_1_sspa?crid=2CMKG581YDDUB&dib=eyJ2IjoiMSJ9.hzyaSPMoM8UhoWIptWNiW6G1ByCsDW-fX1Y78nOgJteIzrt-ga4Y0Wzr1AeJ893IjKJKRG0Q-MU_greb-UPTFb1oTTV7A_xKjiFIupc53l08Mb1fv9mMQs5gXCBuczoo5EgjF2RbquK0QHhrpx28v6KynAJ9Z2j0xiX9d6wYOMIiQGtZq3MqOp8xTvxdtciF26dqlxtNkBuUVuylpYMfEho5vOQ-aiGJTmhC9xACjvkDxJ2_NxNiHPj-UsCgDH_cm2x82R-BsodixUEZn82E7Y9k0r-zQoXajgedLavJCTI.gBNOIevjQ0IQa8Sm-2RqyOmjishg9t3M5NQw-km7WHU&dib_tag=se&keywords=capacitor+10uf+25v&qid=1792948425&sprefix=capacitor+10uf+25v%2Caps%2C148&sr=8-1-spons&aref=uQbY1q8Pl5&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) | 7.82 |
+| **Screw connector** | 11x2 | connector for the accesorys | [Amazon](https://www.amazon.it/-/en/gp/product/B0FN6VYSFN/ref=ox_sc_act_title_8?smid=A2KWOEY1RHRC64&psc=1) | 12.30 |
+| **Header Pin Female 1x10,1x15** | 2+2 | standard conectors 2.54mm | [Amazon](https://www.amazon.it/-/en/gp/product/B09NDMVD2C/ref=ox_sc_act_title_2?smid=A2FXWI8CY4G34J&psc=1) | 13.42 |
+| **Jack Female** | 1 | Jack audio Wide without switch | [Amazon](https://www.amazon.it/-/en/gp/product/B0C4SV6GGS/ref=ox_sc_act_title_1?smid=A1TMZHY2SHKLH2&psc=1) | 19.46 |
+| **Potenziometrs** | 8 | 10K potenziometers | [Amazon](https://www.amazon.it/-/en/gp/product/B07RHJZ979/ref=ox_sc_act_title_4?smid=AT0FJ7CZCB0G9&psc=1) | 11.18 |
+| **Bipolar switches** | 6 | Switches used in racecars or airplanes | [Amazon](https://www.amazon.it/-/en/gp/product/B0GJN7GH6H/ref=ox_sc_act_title_3?smid=A2V9110KNWB97R&psc=1) | 9.25 |
+| **LED** | 6 | LED standard 5mm | [Amazon]([https://amazon.com "led diodes kit assortment amazon"](https://www.amazon.it/-/en/CESFONJER-500pcs-Emitting-Diffuser-Yellow/dp/B07DPJ23YT/ref=sr_1_37?crid=XZEDS0JP4E2B&dib=eyJ2IjoiMSJ9.IWaHpNgDMd8Aqs3IYhj34O66BZcgvMejt1W-sJlgLg5VYvXCjT1i-Qo6sT5UX5z1Vkh7h-rPIJF7w7bXKRT9yNzgOXVT_sMCTEhwaVdQcK7R-QR-ZqL3GEROBvxE-fju-tqfYjbFMVByLecUZt8rBpD-QQpcuPIYgGm_XH2h7ucs__5ha7a-pwbaMqnTLsln-Eea8YbCn4mcby-hXiz8kMpZAvMNrZhaO9aRDUQIA9IG20oFuBItBYIPe4QQ8i_ySTk37-TOvAgFNocJqGzd1c5bd24fr2TU_Xe9J8UhwNw.fy-LiWBKteqsv5HQnHX_2Hs5eu9_gWXX_ik8kk5EbeA&dib_tag=se&keywords=leds&qid=1792947888&sprefix=leds%2Caps%2C207&sr=8-37)) | 14 |
+| **Main PCB** | 1 | the one in the main folder | you can make it yourself or let it make from: (ex. JLCPCB / PCBWay) | 5.00/10 |
+| **Soder** | 1 | For soder everything | you can buy it even localy | Variable |
+| **Wire** | A bit for connecting things togheder | You can get it everywere | every type is great | Variable |
 
 
 
