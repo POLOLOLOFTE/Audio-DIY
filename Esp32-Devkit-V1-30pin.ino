@@ -8,8 +8,8 @@
 constexpr int PIN_BCLK = 5;     // SCLK codec
 constexpr int PIN_LRCK = 25;    // LRCLK codec
 constexpr int PIN_DIN  = 26;    // ESP -> codec
-constexpr int PIN_DOUT = 35;    // codec -> ESP (solo input)
-constexpr int PIN_MCLK = 1;     // GPIO1 = CLK_OUT3 (non usare Serial)
+constexpr int PIN_DOUT = 35;    // codec -> ESP
+constexpr int PIN_MCLK = 1;     // GPIO1 = CLK_OUT3 
 constexpr int PIN_SDA  = 18;
 constexpr int PIN_SCL  = 23;
 
@@ -22,7 +22,7 @@ constexpr int SW_ECHO    = 16;  // SW6
 
 // ================= AUDIO =================
 constexpr float FS    = 22050.0f;
-constexpr int   BLOCK = 128;            // frame per blocco
+constexpr int   BLOCK = 128;
 constexpr float TAU   = 6.2831853f;
 
 // ================= POTENZIOMETERS =================
@@ -46,7 +46,7 @@ Adafruit_ADS1115 ads[2];
 volatile float pot[P_COUNT];
 
 static inline float deadzone(float v) {
-  const float LO = 0.04f, HI = 0.96f;   // zona morta agli estremi
+  const float LO = 0.04f, HI = 0.96f;   // death zone
   if (v <= LO) return 0.0f;
   if (v >= HI) return 1.0f;
   return (v - LO) / (HI - LO);
