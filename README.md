@@ -48,7 +48,7 @@ the jack on the other card (Analog Codec)
 ## Settings
 The sound is controlled with 6 switch and 8 potenziometers, and they work all indipendently to others so your code can be basically anything differnt and still works with all the switch and potenziometers
 
-### Let's thalk about buttons to press!
+### Let's talk about buttons to press!
 if you use the the default code here are the things that you can do:
 
 if you press any button you arledy strarting to change the sound of the input but the real magic comes with the potenziometers and you take controll of the audio compleatlly
