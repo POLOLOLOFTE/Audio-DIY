@@ -17,6 +17,16 @@ it's preatty simple you gotta to soder with a sodering iron all of the things: l
 
 i have tryed to make it easy as possible but the controllers for the potenziometers is not soderable trough board so it won't be as easy as the other components
 
+the rest is not that kind of easy but still simple when you know how it works:
+
+you gotta connect all the buttons, potenziometers, leds;
+
+trough some wire and you have to be near the schematic of the wires if you don't memorize it
+
+and after this work you have to connect the mess (mine is going to be for sure it) to the pcb by the 22 screw connector
+
+> **REMEMBER:** Lable every wire that gose in the pcb! with a number and a letter (for example P2: it's the second potenziometer).
+
 ## INPUT and OUTPUT
 the board has got 2 inputs:
 
