@@ -27,6 +27,13 @@ and after this work you have to connect the mess (mine is going to be for sure i
 
 > **REMEMBER:** Lable every wire that gose in the pcb! with a number and a letter (for example P2: it's the second potenziometer).
 
+for just not have all the wire and board hanging there you can print on a 3d printer the customizable at pcb-extra/3d/customizable case
+
+and you have included all of the pieces and the 3d model.
+
+for the case you have to go to my other reposty: freedigital amp case and you got the instructions for mounting it. but this board hasn't got any screw so it's mounted with hot glue(i know it's not professional but it work well)
+an then there are the buttons (i choose to use some bipolar metal ones: they look sick) and potenziometers that goes in with the screw and the leds: just hot glue them
+
 ## INPUT and OUTPUT
 the board has got 2 inputs:
 
